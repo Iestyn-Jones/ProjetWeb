@@ -17,3 +17,7 @@ function allerproblematique(){
 function allerapropos(){
     document.location.href = "apropos.html";
 }
+
+function alleraccueil(){
+    document.location.href = "accueil.html";
+}

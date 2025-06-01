@@ -1,0 +1,129 @@
+body {
+  font-family: '';
+  background-color: #daf2c3;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b4f57b;
+    padding: 10% 0%;
+    background-image: url("../img/image1PJW.jpg");
+    width: 100%;
+    height: 50%;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+header::before{
+    
+    background: linear-gradient(0deg, #000000 40%, #ffffff 100%)
+}
+
+header img {
+    height: 100%;
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    
+}
+header p{
+    font-size: 500%;
+    text-transform: uppercase;
+    font-family: "Be Vietnam Pro", sans-serif;
+    position:static;
+    text-align: center;
+    top: 100%;
+    width: 100%;
+    font-weight: 900;
+    color: #000000;
+
+}
+header a {
+    text-decoration: none;
+    background-color: #027cff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.image-section {
+    margin-bottom: 20px;
+}
+.text-buttons {
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+.text-buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    
+}
+.text-buttons p {
+    font-size: 200%;
+}
+.game-section button {
+    padding: 10px 20px;
+    background-color: #c70808;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+}
+p {
+    font-family: 'Times New Roman', Times, serif;
+    text-size-adjust: 100px;
+}
+footer {
+  background-color: #b4f57b;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+}
+.button {
+  background-color: #1bc788; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+input[type = button] {
+  background-color: #1bc788;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 150%;
+  box-shadow: 0 8px 16px 0 rgba(127, 193, 166, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  transition-duration: 0.4s;
+  border-radius: 8px;
+}
+
+input[type = button]:hover {
+  background-color: #ffffff; 
+  color: #1bc788;
+  border: 2px solid #1bc788;
+}
+
+input[value = "Le jeux"] {
+  background-color: #f00447; 
+}

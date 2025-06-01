@@ -12,17 +12,26 @@ header {
     background-color: #b4f57b;
     padding: 10% 0%;
     background-image: url("../img/image1PJW.jpg");
+    
     width: 100%;
     height: 50%;
-    
     background-size: cover;
     background-repeat: no-repeat;
     
-}
-header::before{
     
-    background: linear-gradient(0deg, #000000 40%, #ffffff 100%)
 }
+/*header::before{
+    content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('image.jpg');
+  background-size: cover;
+  opacity: 0.0; 
+  z-index: -1;
+}*/
 
 header img {
     height: 100%;
@@ -32,10 +41,9 @@ header img {
     margin-right: 15px;
     border-radius: 4px;
     margin-bottom: 15px;
-    
 }
 header p{
-    font-size: 500%;
+    font-size: 400%;
     text-transform: uppercase;
     font-family: "Be Vietnam Pro", sans-serif;
     position:static;
@@ -43,16 +51,10 @@ header p{
     top: 100%;
     width: 100%;
     font-weight: 900;
-    color: #000000;
+    color: #b37a0a;
+    
+}
 
-}
-header a {
-    text-decoration: none;
-    background-color: #027cff;
-    color: white;
-    padding: 10px 15px;
-    border-radius: 5px;
-}
 main {
     display: flex;
     flex-direction: column;
@@ -75,13 +77,7 @@ main {
 .text-buttons p {
     font-size: 200%;
 }
-.game-section button {
-    padding: 10px 20px;
-    background-color: #c70808;
-    color: rgb(255, 255, 255);
-    border: none;
-    border-radius: 5px;
-}
+
 p {
     font-family: 'Times New Roman', Times, serif;
     text-size-adjust: 100px;
@@ -92,16 +88,6 @@ footer {
   text-align: center;
   padding: 15px 0;
   margin-top: 40px;
-}
-.button {
-  background-color: #1bc788; 
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
 }
 
 input[type = button] {
@@ -116,6 +102,7 @@ input[type = button] {
   box-shadow: 0 8px 16px 0 rgba(127, 193, 166, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   transition-duration: 0.4s;
   border-radius: 8px;
+  
 }
 
 input[type = button]:hover {
@@ -126,4 +113,11 @@ input[type = button]:hover {
 
 input[value = "Le jeux"] {
   background-color: #f00447; 
+}
+
+.navigation {
+    text-align: center;
+    padding: 1% 1%;
+    display: flex;
+    justify-content: space-between;
 }
